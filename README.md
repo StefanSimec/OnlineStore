@@ -23,6 +23,12 @@ OnlineStore (parent)
 mvnw clean install
 mvnw package spring-boot:repackage -pl service 
 ```
+
+### Run tests
+* All test: `mvnw verify`
+* Unit tests: `mvnw surefire-report:report -Daggregate=true`
+* Integration tests: `mvnw failsafe:integration-test -Pit-tests`
+
 ### Run
 
 * Maven: 
@@ -31,10 +37,10 @@ mvnw package spring-boot:repackage -pl service
 * Java: 
 `java -jar service\target\online-store-service-1.0.0.jar` 
 
-### Run tests
-* All test: `mvnw verify`
-* Unit tests: `mvnw surefire-report:report -Daggregate=true`
-* Integration tests: `mvnw failsafe:integration-test -Pit-tests`
+### Access
+
+* API: http://localhost:8080/api-docs
+* SwaggerUI: http://localhost:8080/api-html
 
 ## Future work:
 
