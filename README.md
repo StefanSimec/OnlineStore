@@ -65,10 +65,12 @@ mvnw package spring-boot:repackage -pl service
 
 ## License
 
-Apache 2.0 li
+Apache 2.0
 
 ## Contact
 
 stefan.simec@gmail.com
+
+https://github.com/StefanSimec/OnlineStore
 
 
